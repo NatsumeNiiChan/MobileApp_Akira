@@ -764,7 +764,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 728994737}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1909027375}
+        m_TargetAssemblyTypeName: Colorchange, Assembly-CSharp
+        m_MethodName: ButtonChangeColor
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &728994737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1006,7 +1018,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb7e6ae5f4efe89469badbff091000b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Sphere: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
